@@ -1,8 +1,3 @@
-FROM jenkins/jenkins:lts
-MAINTAINER 4oh4
-
-# Derived from https://github.com/getintodevops/jenkins-withdocker (miiro@getintodevops.com)
-
 USER root
 
 # Install the latest Docker CE binaries and add user `jenkins` to the docker group
